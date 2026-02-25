@@ -56,7 +56,12 @@ return (
   <div className="min-h-screen w-screen bg-[#0b0d11] text-gray-200">
     {/* NAVBAR */}
     <div className="bg-[#12151b] border-b border-gray-800 px-8 py-4 flex justify-between items-center shadow-md">
-      <h1 className="text-xl font-semibold tracking-wide text-white">
+      <h1 className="flex items-center gap-3 text-xl font-semibold tracking-wide text-white">
+        <img
+          src="/logo.svg"
+          alt="LetsJoin Logo"
+          className="w-20 h-20 object-contain"
+        />
         LetsJoin
       </h1>
 

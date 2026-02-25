@@ -35,7 +35,11 @@ function Login() {
     <div className="min-h-screen w-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black">
       <div className="bg-gray-800/80 backdrop-blur-md p-10 rounded-2xl shadow-2xl w-full max-w-md border border-gray-700">
         <h2 className="text-3xl font-bold text-white text-center mb-6">
-          Welcome Back 🏏
+          LetsJoin the Game{" "}
+          <img
+            src="/logo.svg"
+            alt=""
+          />
         </h2>
 
         <form onSubmit={handleLogin} className="space-y-4">
