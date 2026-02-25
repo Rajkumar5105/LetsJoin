@@ -18,15 +18,27 @@ Built using React + Vite with a modern, responsive, dark-themed UI.
 
 ##  Project Structure
 
+## 📂 Project Structure
+
 src/
-├── api/ # Axios configuration
-├── components/ # Reusable UI components
-├── context/ # Global state (Auth context)
-├── pages/ # Login, Register, Dashboard, CreateGame
+│
+├── api/
+│   └── axios.js                # Axios configuration
+│
+├── components/                 # Reusable UI components
+│
+├── context/
+│   └── AuthContext.jsx         # Global authentication state
+│
+├── pages/
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Dashboard.jsx
+│   └── CreateGame.jsx
+│
 ├── App.jsx
 ├── main.jsx
 └── index.css
-
 ---
 
 ##  Setup Instructions
@@ -35,3 +47,4 @@ src/
 
 ```bash
 npm install
+```
